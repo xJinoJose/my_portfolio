@@ -7,6 +7,11 @@ header > h1 {
     text-align: center;
 }
 
+main {
+    width: 30%;
+    margin: auto;
+}
+
 main > h1 {
     font-family: "Arial";
     font-size: 40px;
@@ -28,23 +33,24 @@ main > h3 {
     text-align: center;
 }
 
-main {
-    align-items: center;
-}
-
 div {
     width: 600px;
-    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+hr {
+    width: 300px;
 }
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.resize {
     height: 20%;
     width: auto;
 }
 
-hr {
-    width: 300px;
-}
