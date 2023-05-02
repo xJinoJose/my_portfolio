@@ -87,6 +87,7 @@ hr {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    color: #FFFFFF;
 }
 
 .social-icons .social-icon:last-child {
@@ -106,18 +107,18 @@ img{
 /* Button Styling */
 
 .btn-primary {
-    color: #333333;
-    background-color: #EADFC9;
+    color: #FFFFFF;
+    background-color: #253237;
     border-color: #f3a14b;
 }
 
 .btn-primary:hover {
-    color: #ffffff;
+    color: #F18F01;
     background-color: #253237;
     border-color:#93ada4;
 }
 .btn-primary:focus, .btn-primary.focus {
-    color: #bfdbcf;
+    color: #F18F01;
     background-color: #93ada4;
     border-color: #93ada4;
 
