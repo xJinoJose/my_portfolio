@@ -1,46 +1,74 @@
 /* Link Styles */
 
-header > h1 {
-    font-family: "Arial";
-    font-size: 72px;
-    color: black;
+
+header.headbar {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     text-align: center;
+    background-color: #253237;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    font-family: "Segoe UI";
+    font-family: 100px;
+    color: #FFFFFF;
 }
 
+.headerfullname {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    width: 100%;
+}
+
+.headertitle {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+
 main {
-    width: 30%;
     margin: auto;
+    width: 640px;
+    padding: 50px;
 }
 
 main > h1 {
-    font-family: "Arial";
+    font-family: "Segoe UI";
     font-size: 40px;
     color: black;
     text-align: center;
 }
 
 main > h2 {
-    font-family: "Arial";
+    font-family: "Segoe UI";
     font-size: 24px;
     color: black;
     text-align: center;
 }
 
 main > h3 {
-    font-family: Arial;
+    font-family: "Segoe UI";
     font-size: 20px;
     color: black;
     text-align: center;
 }
 
-div {
-    width: 600px;
-    text-align: center;
-    justify-content: center;
+hr {
+    width: 640px;
 }
 
-hr {
-    width: 300px;
+.titlefont {
+    font-family: 'Segoe UI', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 .center {
@@ -49,8 +77,48 @@ hr {
     margin-right: auto;
 }
 
-.resize {
-    height: 20%;
-    width: auto;
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: #253237;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+.social-icons .social-icon:hover {
+    background-color: #dc7646;
+}
+
+img{
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Button Styling */
+
+.btn-primary {
+    color: #333333;
+    background-color: #EADFC9;
+    border-color: #f3a14b;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #253237;
+    border-color:#93ada4;
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #bfdbcf;
+    background-color: #93ada4;
+    border-color: #93ada4;
+
+}
